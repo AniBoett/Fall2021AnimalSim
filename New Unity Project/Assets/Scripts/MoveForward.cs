@@ -14,6 +14,7 @@ public class MoveForward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //banana moves forwards
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
     }
